@@ -1,4 +1,6 @@
-// interfaz para tipo pokemon
+/**
+ * PokemonInterface interface that defines the basic structure of a pokemon
+ */
 export interface PokemonInterface {
   id: number;
   name: string;

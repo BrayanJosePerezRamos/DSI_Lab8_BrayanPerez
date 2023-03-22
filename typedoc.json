@@ -1,6 +1,7 @@
 {
   "entryPoints": [
-    "./src/basicFunctions.ts"
+    "./src/pokefactory/*.ts",
+    "./src/pokemons/*.ts"
   ],
   "out": "./docs"
 }

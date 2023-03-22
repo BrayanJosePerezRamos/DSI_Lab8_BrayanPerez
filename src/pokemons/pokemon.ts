@@ -1,14 +1,20 @@
 import { PokemonInterface } from './pokemonInterface';
-// clase pokemon
+
+/**
+ * Clase base Pokemon
+ */
 export abstract class Pokemon implements PokemonInterface {
   id: number;
   name: string;
+  // el tipo se implementa en las clases hijas
   abstract type: string;
   level: number;
   evolutionStage: number;
   health: number;
   attack: number;
+  // tipo al que es debil se implementa en las clases hijas
   abstract weakAgainst: string;
+  // tipo al que es fuerte se implementa en las clases hijas
   abstract strongAgainst: string;
   constructor(
     id: number,
